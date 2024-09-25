@@ -73,7 +73,7 @@ main().then((res) => {
 })
 
 async function main() {
-    await mongoose.connect(mongoUrl);
+    await mongoose.connect(dbUrl);
 }
 
 app.use((req, res, next) => {
